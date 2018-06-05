@@ -39,7 +39,7 @@ abstract class BaseActivity<V : BaseContract.IView, out P : BaseContract.IPresen
      * 生命周期：onStart
      */
     override fun onDestroy() {
-        mPresenter?.datchView()
+        mPresenter?.detachView()
         super.onDestroy()
     }
 

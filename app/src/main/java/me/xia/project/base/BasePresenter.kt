@@ -23,7 +23,7 @@ open class BasePresenter<V : BaseContract.IView>: BaseContract.IPresenter<V> {
     /**
      * 解除View的绑定
      */
-    override fun datchView() {
+    override fun detachView() {
         mWeakReference?.clear()
         mWeakReference = null
     }
