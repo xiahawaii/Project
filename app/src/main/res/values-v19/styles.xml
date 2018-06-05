@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="AppTheme" parent="ProjectTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <dimen name="statusPadding">25dp</dimen>
+</resources>
